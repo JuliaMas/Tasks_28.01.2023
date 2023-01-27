@@ -8,8 +8,8 @@ while (i < n)
 {
     if(array[i] == number)
     {
-        Console.WriteLine("Искомое число присутствует в массиве");
+        Console.WriteLine("Искомое число " + number + " присутствует в массиве");
         break;
-    }
-    i++;
+    }    
+        i++;
 }
